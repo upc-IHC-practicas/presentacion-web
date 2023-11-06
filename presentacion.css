@@ -1,0 +1,54 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul.second li {
+    font-weight: bold;
+}
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Añade margen alrededor de la tarjeta */
+}
+
+.card img {
+    max-width: 400px; /* Ancho máximo para la imagen */
+    border-radius: 5px 0 0 5px; /* Esquinas redondeadas en la parte izquierda de la imagen */
+    margin:6px;
+}
+
+.card-content {
+    padding: 20px; /* Espacio alrededor del contenido de la tarjeta */
+}
+
+.card-content ul, ol{
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+.card-content ul li, ol li {
+    margin-bottom: 7px; /* Espacio entre elementos de la lista */
+}
+
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
